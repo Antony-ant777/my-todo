@@ -1,0 +1,38 @@
+button{
+    border: 0px;
+    border-radius: 15px;
+}
+.blue{
+    background-color: rgb(114, 170, 227);
+    color: white;
+}
+.red{
+    background-color: brown;
+    color: aliceblue;
+}
+.green{
+    color: aliceblue;
+    background-color: greenyellow;
+}
+.main{
+    padding: 15px;
+    background-color:white;
+    border-radius: 20px;
+    width:500px;
+}
+.dash{
+    text-decoration: line-through;
+    background-color: rgb(156, 180, 180);
+}
+body{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
